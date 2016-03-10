@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>MainWindow.nib</key>
+		<data>
+		XfF5WiQulGNGQJepx/eq3IKk2EE=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Shader.fsh</key>
+		<data>
+		sDNd6SZvVSkgEvKt5aMAh8ONzy4=
+		</data>
+		<key>Shader.vsh</key>
+		<data>
+		nfdKFlMx1ygGBoaGSTb/565tBU0=
+		</data>
+		<key>TileViewViewController.nib</key>
+		<data>
+		obPw3DdAiovHxNGSJLhFvjT+Tng=
+		</data>
+		<key>atlas.bmp</key>
+		<data>
+		dD7HCGMdvkx9LulskmRAgZALXYI=
+		</data>
+		<key>mapa.dat</key>
+		<data>
+		3g3/pNEbBV2/nq3rqvO4s50G+EQ=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

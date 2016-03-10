@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TileViewAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 320}}";
+			sepNavSelRange = "{140, 0}";
+			sepNavVisRange = "{0, 478}";
+			sepNavWindowFrame = "{{61, 70}, {911, 629}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TileViewAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 702}}";
+			sepNavSelRange = "{767, 0}";
+			sepNavVisRange = "{294, 582}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* TileView */ = {
+		activeExec = 0;
+		executables = (
+			CEF0F92F13D61BFB00A78D87 /* TileView */,
+		);
+	};
+	28EC4C5611D54ECE0027AA9F /* TileViewViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 5525}}";
+			sepNavSelRange = "{3817, 0}";
+			sepNavVisRange = "{0, 346}";
+			sepNavWindowFrame = "{{108, 94}, {911, 629}}";
+		};
+	};
+	28EC4C5711D54ECE0027AA9F /* TileViewViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1177, 37596}}";
+			sepNavSelRange = "{22787, 0}";
+			sepNavVisRange = "{22308, 775}";
+			sepNavWindowFrame = "{{84, 100}, {1236, 634}}";
+		};
+	};
+	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 806}}";
+			sepNavSelRange = "{1133, 0}";
+			sepNavVisRange = "{694, 442}";
+			sepNavWindowFrame = "{{15, 107}, {1236, 634}}";
+		};
+	};
+	28FD14FD0DC6FC130079059D /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 2795}}";
+			sepNavSelRange = "{4219, 0}";
+			sepNavVisRange = "{3984, 544}";
+			sepNavWindowFrame = "{{130, 64}, {1236, 634}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = CEF0F92F13D61BFB00A78D87 /* TileView */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TileView */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TileView */,
+		);
+		breakpoints = (
+			CEE41B3E14A01C0000D7FAAB /* TileViewViewController.m:178 */,
+		);
+		codeSenseManager = CEF0F93613D61C1900A78D87 /* Code sense */;
+		executables = (
+			CEF0F92F13D61BFB00A78D87 /* TileView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					407,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					485,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					597,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					611,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					537,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					573,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					557,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 346726355;
+			PBXWorkspaceStateSaveDate = 346726355;
+		};
+		perUserProjectItems = {
+			CE04232714A0B01C00FEBEDF /* PBXTextBookmark */ = CE04232714A0B01C00FEBEDF /* PBXTextBookmark */;
+			CE0C5B8C14AA64F600B4A90F /* PBXTextBookmark */ = CE0C5B8C14AA64F600B4A90F /* PBXTextBookmark */;
+			CEB1956113E38579003A440F /* PBXTextBookmark */ = CEB1956113E38579003A440F /* PBXTextBookmark */;
+			CEDD3A46149EE745006D029F /* PBXTextBookmark */ = CEDD3A46149EE745006D029F /* PBXTextBookmark */;
+			CEDD3A47149EE745006D029F /* PBXBookmark */ = CEDD3A47149EE745006D029F /* PBXBookmark */;
+			CEDD3A48149EE745006D029F /* PBXBookmark */ = CEDD3A48149EE745006D029F /* PBXBookmark */;
+			CEDD3A49149EE745006D029F /* PBXTextBookmark */ = CEDD3A49149EE745006D029F /* PBXTextBookmark */;
+			CEDD3A4A149EE745006D029F /* PBXBookmark */ = CEDD3A4A149EE745006D029F /* PBXBookmark */;
+			CEDD3B35149EF8D6006D029F /* PBXTextBookmark */ = CEDD3B35149EF8D6006D029F /* PBXTextBookmark */;
+			CEDD3B37149EF8D6006D029F /* PBXTextBookmark */ = CEDD3B37149EF8D6006D029F /* PBXTextBookmark */;
+			CEDD3B63149EFBBB006D029F /* PBXTextBookmark */ = CEDD3B63149EFBBB006D029F /* PBXTextBookmark */;
+			CEE41B7014A01D5E00D7FAAB /* PBXTextBookmark */ = CEE41B7014A01D5E00D7FAAB /* PBXTextBookmark */;
+			CEE41B8D14A01E0900D7FAAB /* PBXTextBookmark */ = CEE41B8D14A01E0900D7FAAB /* PBXTextBookmark */;
+			CEFC8B1C14AAA026004A2DBC /* PBXTextBookmark */ = CEFC8B1C14AAA026004A2DBC /* PBXTextBookmark */;
+		};
+		sourceControlManager = CEF0F93513D61C1900A78D87 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 376}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 355}";
+		};
+	};
+	CE04232714A0B01C00FEBEDF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* TileViewViewController.m */;
+		name = "TileViewViewController.m: 174";
+		rLen = 0;
+		rLoc = 3261;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 1419;
+	};
+	CE0C5B8C14AA64F600B4A90F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* TileViewViewController.h */;
+		name = "TileViewViewController.h: 187";
+		rLen = 0;
+		rLoc = 3817;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 3573;
+	};
+	CE8E6C0613E2CDDD0079057E /* atlas.bmp */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 107}, {1236, 634}}";
+		};
+	};
+	CE8E6DAF13E2CDDD0079057E /* mapa.dat */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 7.58053e+06}}";
+			sepNavSelRange = "{27, 0}";
+			sepNavVisRange = "{8, 96}";
+		};
+	};
+	CEB1956113E38579003A440F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 14";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 355;
+		vrLoc = 0;
+	};
+	CEDD3A46149EE745006D029F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* TileViewAppDelegate.h */;
+		name = "TileViewAppDelegate.h: 8";
+		rLen = 0;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	CEDD3A47149EE745006D029F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CEDD3A34149EE70E006D029F /* sprites.bmp */;
+	};
+	CEDD3A48149EE745006D029F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CEDD3A32149EE6F7006D029F /* fuego.bmp */;
+	};
+	CEDD3A49149EE745006D029F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CE8E6DAF13E2CDDD0079057E /* mapa.dat */;
+		name = "mapa.dat: 6";
+		rLen = 0;
+		rLoc = 27;
+		rType = 0;
+		vrLen = 96;
+		vrLoc = 8;
+	};
+	CEDD3A4A149EE745006D029F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = CE8E6C0613E2CDDD0079057E /* atlas.bmp */;
+	};
+	CEDD3B35149EF8D6006D029F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDD3B36149EF8D6006D029F /* message.h */;
+		name = "message.h: 361";
+		rLen = 40;
+		rLoc = 11613;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 11326;
+	};
+	CEDD3B36149EF8D6006D029F /* message.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = message.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/mach/message.h;
+		sourceTree = "<absolute>";
+	};
+	CEDD3B37149EF8D6006D029F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEDD3B38149EF8D6006D029F /* _string.h */;
+		name = "_string.h: 148";
+		rLen = 0;
+		rLoc = 4838;
+		rType = 0;
+		vrLen = 819;
+		vrLoc = 3494;
+	};
+	CEDD3B38149EF8D6006D029F /* _string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = _string.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/secure/_string.h;
+		sourceTree = "<absolute>";
+	};
+	CEDD3B63149EFBBB006D029F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* TileViewAppDelegate.m */;
+		name = "TileViewAppDelegate.m: 35";
+		rLen = 0;
+		rLoc = 767;
+		rType = 0;
+		vrLen = 582;
+		vrLoc = 294;
+	};
+	CEE41B3E14A01C0000D7FAAB /* TileViewViewController.m:178 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28EC4C5711D54ECE0027AA9F /* TileViewViewController.m */;
+		functionName = "-drawFrame";
+		hitCount = 3;
+		ignoreCount = 0;
+		lineNumber = 178;
+		location = TileView;
+		modificationTime = 346037795.83919;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CEE41B7014A01D5E00D7FAAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FC0DC6FC130079059D /* EAGLView.h */;
+		name = "EAGLView.h: 48";
+		rLen = 0;
+		rLoc = 1133;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 694;
+	};
+	CEE41B8D14A01E0900D7FAAB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */;
+		name = "EAGLView.m: 176";
+		rLen = 0;
+		rLoc = 4219;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 3984;
+	};
+	CEF0F92F13D61BFB00A78D87 /* TileView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 0;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 0;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXGDB_LaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = GDB;
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.GDBMI_Config;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 0;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TileView;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CEF0F93513D61C1900A78D87 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CEF0F93613D61C1900A78D87 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CEFC8B1C14AAA026004A2DBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* TileViewViewController.h */;
+		name = "TileViewViewController.h: 187";
+		rLen = 0;
+		rLoc = 3817;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 0;
+	};
+}

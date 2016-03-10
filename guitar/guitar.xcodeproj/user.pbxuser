@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* guitarAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 858}}";
+			sepNavSelRange = "{506, 0}";
+			sepNavVisRange = "{322, 628}";
+		};
+	};
+	1D3623250D0F684500981E51 /* guitarAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 6188}}";
+			sepNavSelRange = "{7168, 0}";
+			sepNavVisRange = "{6612, 802}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* guitar */ = {
+		activeExec = 0;
+		executables = (
+			CEFFE472138873AE0067523E /* guitar */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* guitarViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 376}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 228}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* guitarViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{173, 643}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = CEFFE472138873AE0067523E /* guitar */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* guitar */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* guitar */,
+		);
+		breakpoints = (
+			CE8ADA211389B41A007E0A0C /* guitarView.m:366 */,
+		);
+		codeSenseManager = CEFFE47E138873CD0067523E /* Code sense */;
+		executables = (
+			CEFFE472138873AE0067523E /* guitar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					578,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327786752;
+			PBXWorkspaceStateSaveDate = 327786752;
+		};
+		perUserProjectItems = {
+			CE8ADA7C1389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA7C1389D3EC007E0A0C /* PBXTextBookmark */;
+			CE8ADA7D1389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA7D1389D3EC007E0A0C /* PBXTextBookmark */;
+			CE8ADA7E1389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA7E1389D3EC007E0A0C /* PBXTextBookmark */;
+			CE8ADA7F1389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA7F1389D3EC007E0A0C /* PBXTextBookmark */;
+			CE8ADA801389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA801389D3EC007E0A0C /* PBXTextBookmark */;
+			CE8ADA811389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA811389D3EC007E0A0C /* PBXTextBookmark */;
+			CE8ADA821389D3EC007E0A0C /* PBXTextBookmark */ = CE8ADA821389D3EC007E0A0C /* PBXTextBookmark */;
+			CEFFE4A6138875660067523E /* PlistBookmark */ = CEFFE4A6138875660067523E /* PlistBookmark */;
+			CEFFE4DF13887A8B0067523E /* PBXTextBookmark */ = CEFFE4DF13887A8B0067523E /* PBXTextBookmark */;
+		};
+		sourceControlManager = CEFFE47D138873CD0067523E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	CE8ADA211389B41A007E0A0C /* guitarView.m:366 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = CEFFE490138874B60067523E /* guitarView.m */;
+		functionName = "-actualizar";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 366;
+		location = guitar;
+		modificationTime = 327791898.317404;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	CE8ADA7C1389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* guitarViewController.m */;
+		name = "guitarViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 173;
+	};
+	CE8ADA7D1389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* guitarViewController.h */;
+		name = "guitarViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 0;
+	};
+	CE8ADA7E1389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEFFE48F138874B60067523E /* guitarView.h */;
+		name = "guitarView.h: 28";
+		rLen = 0;
+		rLoc = 466;
+		rType = 0;
+		vrLen = 513;
+		vrLoc = 3;
+	};
+	CE8ADA7F1389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* guitarAppDelegate.h */;
+		name = "guitarAppDelegate.h: 25";
+		rLen = 0;
+		rLoc = 506;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 322;
+	};
+	CE8ADA801389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEFFE490138874B60067523E /* guitarView.m */;
+		name = "guitarView.m: 305";
+		rLen = 0;
+		rLoc = 7515;
+		rType = 0;
+		vrLen = 983;
+		vrLoc = 6543;
+	};
+	CE8ADA811389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* guitarAppDelegate.m */;
+		name = "guitarAppDelegate.m: 200";
+		rLen = 0;
+		rLoc = 5267;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 5151;
+	};
+	CE8ADA821389D3EC007E0A0C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* guitarAppDelegate.m */;
+		name = "guitarAppDelegate.m: 271";
+		rLen = 0;
+		rLoc = 7168;
+		rType = 0;
+		vrLen = 802;
+		vrLoc = 6612;
+	};
+	CEFFE472138873AE0067523E /* guitar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 0;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 0;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXGDB_LaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = GDB;
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.GDBMI_Config;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 0;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = guitar;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	CEFFE47D138873CD0067523E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	CEFFE47E138873CD0067523E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	CEFFE48F138874B60067523E /* guitarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 793}}";
+			sepNavSelRange = "{466, 0}";
+			sepNavVisRange = "{3, 513}";
+		};
+	};
+	CEFFE490138874B60067523E /* guitarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {756, 8177}}";
+			sepNavSelRange = "{7515, 0}";
+			sepNavVisRange = "{6543, 983}";
+			sepNavWindowFrame = "{{15, 57}, {933, 688}}";
+		};
+	};
+	CEFFE4A6138875660067523E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* guitar-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/Disco Aux/iphone/guitar/guitar-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	CEFFE4DF13887A8B0067523E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CEFFE4E013887A8B0067523E /* _string.h */;
+		name = "_string.h: 60";
+		rLen = 0;
+		rLoc = 1914;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 1623;
+	};
+	CEFFE4E013887A8B0067523E /* _string.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = _string.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/secure/_string.h;
+		sourceTree = "<absolute>";
+	};
+}

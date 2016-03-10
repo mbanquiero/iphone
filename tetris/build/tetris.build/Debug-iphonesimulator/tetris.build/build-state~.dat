@@ -1,0 +1,689 @@
+Ttetris
+v7
+r0
+t327038012.951684
+cCheck dependencies
+cProcessInfoPlistFile /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/Info.plist tetris-Info.plist
+cCompileXIB /Users/user/Desktop/iphone/tetris/MainWindow.xib
+cCompileXIB /Users/user/Desktop/iphone/tetris/tetrisViewController.xib
+cCpResource build/Debug-iphonesimulator/tetris.app/CUBO.txt CUBO.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/ELE1.txt ELE1.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/ELE2.txt ELE2.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/ESTRELLA.txt ESTRELLA.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/TOR1.txt TOR1.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/TOR2.txt TOR2.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/TRI.txt TRI.txt
+cCpResource build/Debug-iphonesimulator/tetris.app/LINEA.txt LINEA.txt
+cProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch.gch tetris_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/main.o /Users/user/Desktop/iphone/tetris/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisAppDelegate.o /Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisViewController.o /Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisView.o /Users/user/Desktop/iphone/tetris/Classes/tetrisView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/TABLERO.o /Users/user/Desktop/iphone/tetris/Classes/TABLERO.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris normal i386
+cGenerateDSYMFile /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app.dSYM /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris
+cTouch /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFDate.h
+c000000004CC1219E0000000000000A15
+t1287725470
+s2581
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/time.h
+c000000004CBFACAC0000000000001E17
+t1287629996
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CB3E486000000000000178E
+t1286857862
+s6030
+
+N/Users/user/Desktop/iphone/tetris/CUBO.DAT
+c000000004599FCAC0000000000000166
+t1167719596
+s358
+
+N/Users/user/Desktop/iphone/tetris/CUBO.txt
+c000000004599FCAC0000000000000166
+t1167719596
+s358
+
+N/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.CPP
+c000000004DC48791000000000000054A
+t1304725393
+s1354
+i"FIGURAS.H"
+
+N/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.H
+c000000004DCDCD8E00000000000007E5
+t1305333134
+s2021
+
+N/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m
+c000000004DCDF5C20000000000001838
+t1305343426
+s6200
+i"FIGURAS.H"
+i"TABLERO.H"
+
+N/Users/user/Desktop/iphone/tetris/Classes/TABLERO.H
+c000000004DCDC8250000000000000490
+t1305331749
+s1168
+i"figuras.h"
+
+N/Users/user/Desktop/iphone/tetris/Classes/TABLERO.m
+c000000004DCDDB310000000000001B21
+t1305336625
+s6945
+i"tablero.h"
+i<sys/time.h>
+
+N/Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.h
+c000000004DC46DF40000000000000219
+t1304718836
+s537
+i<UIKit/UIKit.h>
+
+N/Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m
+c000000004DC601790000000000000DB7
+t1304822137
+s3511
+i"tetrisAppDelegate.h"
+i<QuartzCore/QuartzCore.h>
+i<CoreFoundation/CFDate.h>
+i"tetrisViewController.h"
+i"tetrisView.h"
+
+N/Users/user/Desktop/iphone/tetris/Classes/tetrisView.h
+c000000004DCDFB0200000000000003A4
+t1305344770
+s932
+i<UIKit/UIKit.h>
+i"FIGURAS.H"
+i"TABLERO.H"
+
+N/Users/user/Desktop/iphone/tetris/Classes/tetrisView.m
+c000000004DCDFB2E0000000000001A02
+t1305344814
+s6658
+i"tetrisView.h"
+i<sys/time.h>
+i"FIGURAS.H"
+
+N/Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.h
+c000000004DC46B5C00000000000000E4
+t1304718172
+s228
+i<UIKit/UIKit.h>
+
+N/Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m
+c000000004DC46B5C00000000000005B6
+t1304718172
+s1462
+i"tetrisViewController.h"
+
+N/Users/user/Desktop/iphone/tetris/ELE1.DAT
+c000000004599FCAC0000000000000166
+t1167719596
+s358
+
+N/Users/user/Desktop/iphone/tetris/ELE1.txt
+c000000004599FCAC0000000000000166
+t1167719596
+s358
+
+N/Users/user/Desktop/iphone/tetris/ELE2.DAT
+c000000004599FCAC0000000000000167
+t1167719596
+s359
+
+N/Users/user/Desktop/iphone/tetris/ELE2.txt
+c000000004599FCAC0000000000000167
+t1167719596
+s359
+
+N/Users/user/Desktop/iphone/tetris/ESTRELLA.txt
+c000000004599FCAC0000000000000166
+t1167719596
+s358
+
+N/Users/user/Desktop/iphone/tetris/LINEA.txt
+c000000004599FCAC0000000000000166
+t1167719596
+s358
+
+N/Users/user/Desktop/iphone/tetris/MainWindow.xib
+c000000004DC481DF0000000000005068
+t1304723935
+s20584
+
+N/Users/user/Desktop/iphone/tetris/TOR1.txt
+c000000004599FCAE0000000000000167
+t1167719598
+s359
+
+N/Users/user/Desktop/iphone/tetris/TOR2.txt
+c000000004599FCAE0000000000000167
+t1167719598
+s359
+
+N/Users/user/Desktop/iphone/tetris/TRI.txt
+c000000004599FCAE0000000000000166
+t1167719598
+s358
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app
+t1305345212
+s510
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app.dSYM
+t1305345212
+s102
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/CUBO.DAT
+t2
+s0
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/CUBO.txt
+t1305345209
+s358
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/ELE1.DAT
+t2
+s0
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/ELE1.txt
+t1305345209
+s358
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/ELE2.DAT
+t2
+s0
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/ELE2.txt
+t1305345210
+s359
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/ESTRELLA.txt
+t1305345210
+s358
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/Info.plist
+t1305345209
+s587
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/LINEA.txt
+t1305345210
+s358
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/MainWindow.nib
+t1305345210
+s1121
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/PkgInfo
+t1305345209
+s8
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/TOR1.txt
+t1305345210
+s359
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/TOR2.txt
+t1305345210
+s359
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/TRI.txt
+t1305345210
+s358
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/shuttle.PNG
+t1305337656
+s143547
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/shuttle.png
+t1305337656
+s143547
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris
+t1305345212
+s57996
+
+N/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetrisViewController.nib
+t1305345210
+s875
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o
+t1305345212
+s36040
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/TABLERO.o
+t1305345212
+s35060
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/main.o
+t1305345212
+s6292
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetris.LinkFileList
+c000000004DCDFCB900000000000002DB
+t1305345209
+s731
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisAppDelegate.o
+t1305345212
+s55716
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisView.o
+t1305345212
+s59316
+
+N/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisViewController.o
+t1305345212
+s37468
+
+N/Users/user/Desktop/iphone/tetris/main.m
+c000000004DC46B5C0000000000000161
+t1304718172
+s353
+i<UIKit/UIKit.h>
+
+N/Users/user/Desktop/iphone/tetris/shuttle.PNG
+c000000004C642B5000000000000230BB
+t1281633104
+s143547
+
+N/Users/user/Desktop/iphone/tetris/shuttle.png
+c000000004C642B5000000000000230BB
+t1281633104
+s143547
+
+N/Users/user/Desktop/iphone/tetris/tetrisViewController.xib
+c000000004DC4817B0000000000003DEF
+t1304723835
+s15855
+
+N/Users/user/Desktop/iphone/tetris/tetris_Prefix.pch
+c000000004DC46B5C00000000000000B5
+t1304718172
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-alwxlobzfmssczartpqnbhfxelid/tetris_Prefix.pch.gch
+t1304725153
+s1728740
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch.gch
+t1305345212
+s10360536
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ekoffhfuqzxppebvmajzydeosrxf/tetris_Prefix.pch.gch
+t1305336940
+s10364632
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-evihcekphbopikdcjnygchkiptcw/tetris_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ffszmfnlmicrgiehmtargptxrzyn/tetris_Prefix.pch.gch
+t2
+s0
+
+Ntetris-Info.plist
+c000000004DC46B5C000000000000038D
+t1304718172
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327038009#327038009#0(0"0(0#1#0"4255560#0"0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.CPP normal i386 c++ com.apple.compilers.gcc.4_2
+s326418197.997552
+e326418198.086752
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o
+x/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.CPP
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.CPP326418197#326418198#0(0"0(0#0#53"/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.CPP2535231424#1822"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-alwxlobzfmssczartpqnbhfxelid/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.CPP -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038012.540750
+e327038012.828027
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o
+x/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m327038012#327038012#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m2535231424#1853"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/Classes/FIGURAS.m -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/FIGURAS.o0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/TABLERO.o /Users/user/Desktop/iphone/tetris/Classes/TABLERO.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038012.561893
+e327038012.846128
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/TABLERO.o
+x/Users/user/Desktop/iphone/tetris/Classes/TABLERO.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/user/Desktop/iphone/tetris/Classes/TABLERO.m327038012#327038012#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/Classes/TABLERO.m2535231424#1853"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/Classes/TABLERO.m -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/TABLERO.o0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/main.o /Users/user/Desktop/iphone/tetris/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038012.358404
+e327038012.540346
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/main.o
+x/Users/user/Desktop/iphone/tetris/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/user/Desktop/iphone/tetris/main.m327038012#327038012#0(0"0(0#0#40"/Users/user/Desktop/iphone/tetris/main.m2535231424#1839"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/main.m -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/main.o0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisAppDelegate.o /Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038012.362893
+e327038012.665835
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisAppDelegate.o
+x/Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m327038012#327038012#0(0"0(0#0#61"/Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m2535231424#1873"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/Classes/tetrisAppDelegate.m -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisAppDelegate.o0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisView.o /Users/user/Desktop/iphone/tetris/Classes/tetrisView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038012.374030
+e327038012.731580
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisView.o
+x/Users/user/Desktop/iphone/tetris/Classes/tetrisView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/user/Desktop/iphone/tetris/Classes/tetrisView.m327038012#327038012#0(0"0(0#0#54"/Users/user/Desktop/iphone/tetris/Classes/tetrisView.m2535231424#1859"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/Classes/tetrisView.m -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisView.o0#
+
+CCompileC build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisViewController.o /Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038012.368853
+e327038012.561580
+r1
+xCompileC
+xbuild/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisViewController.o
+x/Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m327038012#327038012#0(0"0(0#0#64"/Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m2535231424#1879"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch -c /Users/user/Desktop/iphone/tetris/Classes/tetrisViewController.m -o /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetrisViewController.o0#
+
+CCompileXIB /Users/user/Desktop/iphone/tetris/MainWindow.xib
+s327038009.960207
+e327038010.861616
+r1
+xCompileXIB
+x/Users/user/Desktop/iphone/tetris/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327038009#327038010#0(0"0(0#0#48"/Users/user/Desktop/iphone/tetris/MainWindow.xib4742288#554"    cd /Users/user/Desktop/iphone/tetris    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/MainWindow.nib /Users/user/Desktop/iphone/tetris/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/user/Desktop/iphone/tetris/tetrisViewController.xib
+s327038009.961745
+e327038010.818290
+r1
+xCompileXIB
+x/Users/user/Desktop/iphone/tetris/tetrisViewController.xib
+lSLF07#2@35"CompileXIB tetrisViewController.xib327038009#327038010#0(0"0(0#0#58"/Users/user/Desktop/iphone/tetris/tetrisViewController.xib2535231424#574"    cd /Users/user/Desktop/iphone/tetris    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetrisViewController.nib /Users/user/Desktop/iphone/tetris/tetrisViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/CUBO.DAT CUBO.DAT
+r0
+
+CCpResource build/Debug-iphonesimulator/tetris.app/CUBO.txt CUBO.txt
+s327038009.963598
+e327038009.993882
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/CUBO.txt
+xCUBO.txt
+lSLF07#2@13"Copy CUBO.txt327038009#327038009#0(0"0(0#0#42"/Users/user/Desktop/iphone/tetris/CUBO.txt2535231424#450"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/CUBO.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/ELE1.DAT ELE1.DAT
+r0
+
+CCpResource build/Debug-iphonesimulator/tetris.app/ELE1.txt ELE1.txt
+s327038009.965355
+e327038009.996454
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/ELE1.txt
+xELE1.txt
+lSLF07#2@13"Copy ELE1.txt327038009#327038009#0(0"0(0#0#42"/Users/user/Desktop/iphone/tetris/ELE1.txt2535231424#450"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/ELE1.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/ELE2.DAT ELE2.DAT
+r0
+
+CCpResource build/Debug-iphonesimulator/tetris.app/ELE2.txt ELE2.txt
+s327038009.967951
+e327038010.018183
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/ELE2.txt
+xELE2.txt
+lSLF07#2@13"Copy ELE2.txt327038009#327038010#0(0"0(0#0#42"/Users/user/Desktop/iphone/tetris/ELE2.txt2535231424#450"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/ELE2.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/ESTRELLA.txt ESTRELLA.txt
+s327038009.970642
+e327038010.013796
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/ESTRELLA.txt
+xESTRELLA.txt
+lSLF07#2@17"Copy ESTRELLA.txt327038009#327038010#0(0"0(0#0#46"/Users/user/Desktop/iphone/tetris/ESTRELLA.txt2535231424#454"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/ESTRELLA.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/LINEA.txt LINEA.txt
+s327038009.985091
+e327038010.035997
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/LINEA.txt
+xLINEA.txt
+lSLF07#2@14"Copy LINEA.txt327038009#327038010#0(0"0(0#0#43"/Users/user/Desktop/iphone/tetris/LINEA.txt2535231424#451"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/LINEA.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/TOR1.txt TOR1.txt
+s327038009.973129
+e327038010.010343
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/TOR1.txt
+xTOR1.txt
+lSLF07#2@13"Copy TOR1.txt327038009#327038010#0(0"0(0#0#42"/Users/user/Desktop/iphone/tetris/TOR1.txt2535231424#450"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/TOR1.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/TOR2.txt TOR2.txt
+s327038009.976599
+e327038010.018683
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/TOR2.txt
+xTOR2.txt
+lSLF07#2@13"Copy TOR2.txt327038009#327038010#0(0"0(0#0#42"/Users/user/Desktop/iphone/tetris/TOR2.txt2535231424#450"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/TOR2.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/TRI.txt TRI.txt
+s327038009.980008
+e327038010.037913
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/TRI.txt
+xTRI.txt
+lSLF07#2@12"Copy TRI.txt327038009#327038010#0(0"0(0#0#41"/Users/user/Desktop/iphone/tetris/TRI.txt2535231424#449"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/TRI.txt /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/shuttle.PNG shuttle.PNG
+s327030456.030395
+e327030456.059109
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/tetris.app/shuttle.PNG
+xshuttle.PNG
+lSLF07#2@16"Copy shuttle.PNG327030456#327030456#0(0"0(0#0#45"/Users/user/Desktop/iphone/tetris/shuttle.PNG2535231424#453"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/user/Desktop/iphone/tetris/shuttle.PNG /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+
+CCpResource build/Debug-iphonesimulator/tetris.app/shuttle.png shuttle.png
+r0
+
+CGenerateDSYMFile /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app.dSYM /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris
+s327038012.904600
+e327038012.944963
+r1
+xGenerateDSYMFile
+x/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app.dSYM
+x/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/tetris.app.dSYM build/Debug-iphonesimulator/tetris.app/tetris327038012#327038012#0(0"0(0#0#79"/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris2535231424#365"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris -o /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app.dSYM0#
+
+CLd /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris normal i386
+s327038012.846239
+e327038012.904369
+r1
+xLd
+x/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris
+xnormal
+xi386
+lSLF07#2@84"Link /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris327038012#327038012#0(0"0(0#0#0"2535231424#870"    cd /Users/user/Desktop/iphone/tetris    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -filelist /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/Objects-normal/i386/tetris.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/tetris0#
+
+CProcessInfoPlistFile /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/Info.plist tetris-Info.plist
+s327038009.949897
+e327038009.960206
+r1
+xProcessInfoPlistFile
+x/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/Info.plist
+xtetris-Info.plist
+lSLF07#2@25"Process tetris-Info.plist327038009#327038009#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/tetris-Info.plist4742288#461"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility tetris-Info.plist -genpkginfo /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app/Info.plist0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch.gch tetris_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327038010.861806
+e327038012.357604
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch.gch
+xtetris_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile tetris_Prefix.pch327038010#327038012#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/tetris_Prefix.pch4255560#1737"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -c /Users/user/Desktop/iphone/tetris/tetris_Prefix.pch -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ejxwptgqzlcgeadkhhtoxtddhzpk/tetris_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ekoffhfuqzxppebvmajzydeosrxf/tetris_Prefix.pch.gch tetris_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327029736.180190
+e327029740.229136
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ekoffhfuqzxppebvmajzydeosrxf/tetris_Prefix.pch.gch
+xtetris_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile tetris_Prefix.pch327029736#327029740#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/tetris_Prefix.pch2535231424#1737"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -c /Users/user/Desktop/iphone/tetris/tetris_Prefix.pch -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ekoffhfuqzxppebvmajzydeosrxf/tetris_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-evihcekphbopikdcjnygchkiptcw/tetris_Prefix.pch.gch tetris_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s326514366.744789
+e326514368.056608
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-evihcekphbopikdcjnygchkiptcw/tetris_Prefix.pch.gch
+xtetris_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile tetris_Prefix.pch326514366#326514368#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/tetris_Prefix.pch2535231424#1737"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -c /Users/user/Desktop/iphone/tetris/tetris_Prefix.pch -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-evihcekphbopikdcjnygchkiptcw/tetris_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ffszmfnlmicrgiehmtargptxrzyn/tetris_Prefix.pch.gch tetris_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327016598.144465
+e327016599.005083
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ffszmfnlmicrgiehmtargptxrzyn/tetris_Prefix.pch.gch
+xtetris_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile tetris_Prefix.pch327016598#327016599#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/tetris_Prefix.pch2535231424#1737"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -c /Users/user/Desktop/iphone/tetris/tetris_Prefix.pch -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-ffszmfnlmicrgiehmtargptxrzyn/tetris_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-alwxlobzfmssczartpqnbhfxelid/tetris_Prefix.pch.gch tetris_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+s326417953.356722
+e326417953.613203
+r1
+xProcessPCH++
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-alwxlobzfmssczartpqnbhfxelid/tetris_Prefix.pch.gch
+xtetris_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile tetris_Prefix.pch326417953#326417953#0(0"0(0#0#51"/Users/user/Desktop/iphone/tetris/tetris_Prefix.pch4255560#1704"    cd /Users/user/Desktop/iphone/tetris    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-generated-files.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-own-target-headers.hmap -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-all-target-headers.hmap -iquote /Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/tetris-project-headers.hmap -F/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator -I/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/include -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources/i386 -I/Users/user/Desktop/iphone/tetris/build/tetris.build/Debug-iphonesimulator/tetris.build/DerivedSources -c /Users/user/Desktop/iphone/tetris/tetris_Prefix.pch -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/tetris_Prefix-alwxlobzfmssczartpqnbhfxelid/tetris_Prefix.pch.gch0#
+
+CTouch /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app
+s327038012.945101
+e327038012.951630
+r1
+xTouch
+x/Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app
+lSLF07#2@78"Touch /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app327038012#327038012#0(0"0(0#0#0"2535231424#267"    cd /Users/user/Desktop/iphone/tetris    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/user/Desktop/iphone/tetris/build/Debug-iphonesimulator/tetris.app0#
+

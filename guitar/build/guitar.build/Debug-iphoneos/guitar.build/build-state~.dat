@@ -1,0 +1,567 @@
+Tguitar
+v7
+r0
+t327796663.348492
+cCheck dependencies
+cCpResource build/Debug-iphoneos/guitar.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/Info.plist" guitar-Info.plist
+cCompileXIB "/Volumes/Disco Aux/iphone/guitar/MainWindow.xib"
+cCompileXIB "/Volumes/Disco Aux/iphone/guitar/guitarViewController.xib"
+cCpResource build/Debug-iphoneos/guitar.app/TEST.wav TEST.wav
+cCpResource build/Debug-iphoneos/guitar.app/ks-B3.wav ks-B3.wav
+cCpResource build/Debug-iphoneos/guitar.app/C4.wav C4.wav
+cProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch.gch guitar_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch.gch guitar_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/main.o "/Volumes/Disco Aux/iphone/guitar/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarAppDelegate.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarViewController.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarView.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/main.o "/Volumes/Disco Aux/iphone/guitar/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarAppDelegate.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarViewController.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarView.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar" normal armv6
+cLd "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar" normal armv7
+cCreateUniversalBinary "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar" normal "armv6 armv7"
+cGenerateDSYMFile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app.dSYM" "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar"
+cTouch "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent"
+cCodeSign "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioUnit.framework/Headers/AudioUnit.h
+c000000004CC10EB0000000000000041E
+t1287720624
+s1054
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Volumes/Disco Aux/iphone/guitar/C4.wav
+c000000004DD91E6C0000000000076B54
+t1306074732
+s486228
+
+N/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.h
+c000000004DD98E7E00000000000004E8
+t1306103422
+s1256
+i<UIKit/UIKit.h>
+
+N/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m
+c000000004DD98D870000000000003270
+t1306103175
+s12912
+i"guitarAppDelegate.h"
+i"guitarViewController.h"
+i<AudioUnit/AudioUnit.h>
+
+N/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.h
+c000000004DD98BD100000000000003B0
+t1306102737
+s944
+i<UIKit/UIKit.h>
+
+N/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m
+c000000004DD98FBE000000000000392D
+t1306103742
+s14637
+i"guitarView.h"
+i"guitarAppDelegate.h"
+i<sys/time.h>
+
+N/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.h
+c000000004DCF5C1800000000000000E4
+t1305435160
+s228
+i<UIKit/UIKit.h>
+
+N/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m
+c000000004DCF5C1800000000000005B6
+t1305435160
+s1462
+i"guitarViewController.h"
+
+N/Volumes/Disco Aux/iphone/guitar/MainWindow.xib
+c000000004DD83C2E0000000000004E1D
+t1306016814
+s19997
+
+N/Volumes/Disco Aux/iphone/guitar/TEST.wav
+c000000004DD7CA4C000000000003982E
+t1305987660
+s235566
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app
+t1306103863
+s442
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app.dSYM
+t1306103863
+s102
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/C4.wav
+t1306103860
+s486228
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/Info.plist
+t1306103860
+s783
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/MainWindow.nib
+t1306103860
+s1121
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/PkgInfo
+t1306103860
+s8
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/ResourceRules.plist
+t1306103860
+s485
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/TEST.wav
+t1306103860
+s235566
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar
+t1306103863
+s89940
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitarViewController.nib
+t1306103860
+s875
+
+N/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/ks-B3.wav
+t1306103860
+s441044
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar
+t1306103862
+s42040
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar.LinkFileList
+c000000004DD9903400000000000001D3
+t1306103860
+s467
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarAppDelegate.o
+t1306103862
+s68856
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarView.o
+t1306103862
+s72036
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarViewController.o
+t1306103862
+s37460
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/main.o
+t1306103862
+s6436
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar
+t1306103862
+s40788
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar.LinkFileList
+c000000004DD9903400000000000001D3
+t1306103860
+s467
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarAppDelegate.o
+t1306103862
+s66260
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarView.o
+t1306103862
+s68212
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarViewController.o
+t1306103862
+s37440
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/main.o
+t1306103862
+s6420
+
+N/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent
+t1306103863
+s360
+
+N/Volumes/Disco Aux/iphone/guitar/guitarViewController.xib
+c000000004DD83DBD0000000000003CCE
+t1306017213
+s15566
+
+N/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch
+c000000004DD83C2E00000000000000B5
+t1306016814
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Disco Aux/iphone/guitar/ks-B3.wav
+c000000004DD84A72000000000006BAD4
+t1306020466
+s441044
+
+N/Volumes/Disco Aux/iphone/guitar/main.m
+c000000004DD83C2E0000000000000161
+t1306016814
+s353
+i<UIKit/UIKit.h>
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-aeplshpscffpbiekyavnvoflqfer/guitar_Prefix.pch.gch
+t1306018678
+s10446552
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-bzaryjojiarhdebxwggruxzgcchh/guitar_Prefix.pch.gch
+t1306018677
+s9983704
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch.gch
+t1306103862
+s10446552
+
+N/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch.gch
+t1306103862
+s9983704
+
+Nguitar-Info.plist
+c000000004DD83C2E000000000000038D
+t1306016814
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies327796660#327796660#0(0"0(0#1#0"2535231424#0"0#
+
+CCodeSign "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"
+s327796663.079129
+e327796663.348153
+r1
+xCodeSign
+x/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app
+lSLF07#2@40"CodeSign build/Debug-iphoneos/guitar.app327796663#327796663#0(0"0(0#0#64"/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app2535231424#600"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer" "--resource-rules=/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/ResourceRules.plist" --entitlements "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent" "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarAppDelegate.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327796662.511026
+e327796662.731270
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarAppDelegate.o
+x/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m327796662#327796662#0(0"0(0#0#60"/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m2535231424#1694"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv6" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarAppDelegate.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarView.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327796662.517245
+e327796662.825009
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarView.o
+x/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m327796662#327796662#0(0"0(0#0#53"/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m2535231424#1680"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv6" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarView.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarViewController.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327796662.514017
+e327796662.617273
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarViewController.o
+x/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m327796662#327796662#0(0"0(0#0#63"/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m2535231424#1700"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv6" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitarViewController.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/main.o "/Volumes/Disco Aux/iphone/guitar/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327796662.507232
+e327796662.597284
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/main.o
+x/Volumes/Disco Aux/iphone/guitar/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Volumes/Disco Aux/iphone/guitar/main.m327796662#327796662#0(0"0(0#0#39"/Volumes/Disco Aux/iphone/guitar/main.m2535231424#1660"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv6" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/main.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarAppDelegate.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327796662.617414
+e327796662.810795
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarAppDelegate.o
+x/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m327796662#327796662#0(0"0(0#0#60"/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m2535231424#1694"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv7" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/Classes/guitarAppDelegate.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarAppDelegate.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarView.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327796662.733871
+e327796662.959288
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarView.o
+x/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m327796662#327796662#0(0"0(0#0#53"/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m2535231424#1680"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv7" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/Classes/guitarView.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarView.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarViewController.o "/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327796662.694719
+e327796662.817820
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarViewController.o
+x/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m327796662#327796662#0(0"0(0#0#63"/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m2535231424#1700"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv7" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/Classes/guitarViewController.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitarViewController.o"0#
+
+CCompileC build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/main.o "/Volumes/Disco Aux/iphone/guitar/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327796662.597420
+e327796662.694527
+r1
+xCompileC
+xbuild/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/main.o
+x/Volumes/Disco Aux/iphone/guitar/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Volumes/Disco Aux/iphone/guitar/main.m327796662#327796662#0(0"0(0#0#39"/Volumes/Disco Aux/iphone/guitar/main.m2535231424#1660"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv7" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -include /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch -c "/Volumes/Disco Aux/iphone/guitar/main.m" -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Volumes/Disco Aux/iphone/guitar/MainWindow.xib"
+s327796660.115486
+e327796660.801468
+r1
+xCompileXIB
+x/Volumes/Disco Aux/iphone/guitar/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib327796660#327796660#0(0"0(0#0#47"/Volumes/Disco Aux/iphone/guitar/MainWindow.xib2535231424#529"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/MainWindow.nib" "/Volumes/Disco Aux/iphone/guitar/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB "/Volumes/Disco Aux/iphone/guitar/guitarViewController.xib"
+s327796660.116736
+e327796660.792078
+r1
+xCompileXIB
+x/Volumes/Disco Aux/iphone/guitar/guitarViewController.xib
+lSLF07#2@35"CompileXIB guitarViewController.xib327796660#327796660#0(0"0(0#0#57"/Volumes/Disco Aux/iphone/guitar/guitarViewController.xib2535231424#549"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitarViewController.nib" "/Volumes/Disco Aux/iphone/guitar/guitarViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCpResource build/Debug-iphoneos/guitar.app/C4.wav C4.wav
+s327796660.121407
+e327796660.196380
+r1
+xCpResource
+xbuild/Debug-iphoneos/guitar.app/C4.wav
+xC4.wav
+lSLF07#2@11"Copy C4.wav327796660#327796660#0(0"0(0#0#39"/Volumes/Disco Aux/iphone/guitar/C4.wav2535231424#437"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/Disco Aux/iphone/guitar/C4.wav" "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"0#
+
+CCpResource build/Debug-iphoneos/guitar.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s327796660.049174
+e327796660.115300
+r1
+xCpResource
+xbuild/Debug-iphoneos/guitar.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist327796660#327796660#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist2535231424#485"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"0#
+
+CCpResource build/Debug-iphoneos/guitar.app/TEST.wav TEST.wav
+s327796660.118254
+e327796660.218935
+r1
+xCpResource
+xbuild/Debug-iphoneos/guitar.app/TEST.wav
+xTEST.wav
+lSLF07#2@13"Copy TEST.wav327796660#327796660#0(0"0(0#0#41"/Volumes/Disco Aux/iphone/guitar/TEST.wav2535231424#439"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/Disco Aux/iphone/guitar/TEST.wav" "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"0#
+
+CCpResource build/Debug-iphoneos/guitar.app/ks-B3.wav ks-B3.wav
+s327796660.120122
+e327796660.201458
+r1
+xCpResource
+xbuild/Debug-iphoneos/guitar.app/ks-B3.wav
+xks-B3.wav
+lSLF07#2@14"Copy ks-B3.wav327796660#327796660#0(0"0(0#0#42"/Volumes/Disco Aux/iphone/guitar/ks-B3.wav2535231424#440"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/Disco Aux/iphone/guitar/ks-B3.wav" "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"0#
+
+CCreateUniversalBinary "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar" normal "armv6 armv7"
+s327796663.000604
+e327796663.005917
+r1
+xCreateUniversalBinary
+x/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/guitar.app/guitar normal "armv6 armv7"327796663#327796663#0(0"0(0#0#44"/Volumes/Disco Aux/iphone/guitar/armv6 armv72535231424#494"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar" "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar" -output "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar"0#
+
+CGenerateDSYMFile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app.dSYM" "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar"
+s327796663.006049
+e327796663.056207
+r1
+xGenerateDSYMFile
+x/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app.dSYM
+x/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/guitar.app.dSYM build/Debug-iphoneos/guitar.app/guitar327796663#327796663#0(0"0(0#0#71"/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar2535231424#347"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/guitar" -o "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app.dSYM"0#
+
+CLd "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar" normal armv6
+s327796662.825996
+e327796662.879210
+r1
+xLd
+x/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar
+xnormal
+xarmv6
+lSLF07#2@112"Link /Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar327796662#327796662#0(0"0(0#0#0"2535231424#857"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" -filelist "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar.LinkFileList" -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv6/guitar"0#
+
+CLd "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar" normal armv7
+s327796662.959405
+e327796663.000501
+r1
+xLd
+x/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar
+xnormal
+xarmv7
+lSLF07#2@112"Link /Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar327796662#327796663#0(0"0(0#0#0"2535231424#857"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" -filelist "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar.LinkFileList" -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/Objects-normal/armv7/guitar"0#
+
+CProcessInfoPlistFile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/Info.plist" guitar-Info.plist
+s327796660.052756
+e327796660.095139
+r1
+xProcessInfoPlistFile
+x/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/Info.plist
+xguitar-Info.plist
+lSLF07#2@25"Process guitar-Info.plist327796660#327796660#0(0"0(0#0#50"/Volumes/Disco Aux/iphone/guitar/guitar-Info.plist2535231424#542"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility guitar-Info.plist -genpkginfo "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/ResourceRules.plist" -o "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app/Info.plist"0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-aeplshpscffpbiekyavnvoflqfer/guitar_Prefix.pch.gch guitar_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327711476.068625
+e327711478.317659
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-aeplshpscffpbiekyavnvoflqfer/guitar_Prefix.pch.gch
+xguitar_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile guitar_Prefix.pch327711476#327711478#0(0"0(0#0#50"/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch2535231424#1563"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv7" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -c "/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch" -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-aeplshpscffpbiekyavnvoflqfer/guitar_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-bzaryjojiarhdebxwggruxzgcchh/guitar_Prefix.pch.gch guitar_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327711476.066954
+e327711477.938943
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-bzaryjojiarhdebxwggruxzgcchh/guitar_Prefix.pch.gch
+xguitar_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile guitar_Prefix.pch327711476#327711477#0(0"0(0#0#50"/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch2535231424#1563"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv6" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -c "/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch" -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-bzaryjojiarhdebxwggruxzgcchh/guitar_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch.gch guitar_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s327796660.803687
+e327796662.506951
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch.gch
+xguitar_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile guitar_Prefix.pch327796660#327796662#0(0"0(0#0#50"/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch2535231424#1563"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv7" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -c "/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch" -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-ejkpvqkemssagjfjatimsirxnzwg/guitar_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch.gch guitar_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s327796660.801697
+e327796662.428944
+r1
+xProcessPCH
+x/var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch.gch
+xguitar_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile guitar_Prefix.pch327796660#327796662#0(0"0(0#0#50"/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch2535231424#1563"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-generated-files.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-own-target-headers.hmap" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-all-target-headers.hmap" -iquote "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar-project-headers.hmap" "-F/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos" "-I/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/include" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources/armv6" "-I/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/DerivedSources" -c "/Volumes/Disco Aux/iphone/guitar/guitar_Prefix.pch" -o /var/folders/aI/aIo6fGoiHM4xHwQ3N1xByE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/guitar_Prefix-fimyqrbzwyddkuexqiotkljjnbld/guitar_Prefix.pch.gch0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent"
+s327796663.062804
+e327796663.079046
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent327796663#327796663#0(0"0(0#0#92"/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent2535231424#421"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o "/Volumes/Disco Aux/iphone/guitar/build/guitar.build/Debug-iphoneos/guitar.build/guitar.xcent"0#
+
+CTouch "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"
+s327796663.056366
+e327796663.062668
+r1
+xTouch
+x/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app
+lSLF07#2@70"Touch /Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app327796663#327796663#0(0"0(0#0#0"2535231424#255"    cd "/Volumes/Disco Aux/iphone/guitar"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/Disco Aux/iphone/guitar/build/Debug-iphoneos/guitar.app"0#
+

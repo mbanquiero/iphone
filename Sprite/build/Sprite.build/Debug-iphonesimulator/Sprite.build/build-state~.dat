@@ -1,0 +1,377 @@
+TSprite
+v7
+r0
+t318604504.623026
+cCheck dependencies
+cProcessInfoPlistFile /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Info.plist Sprite-Info.plist
+cCpResource build/Debug-iphonesimulator/Sprite.app/Shader.fsh Shaders/Shader.fsh
+cCpResource build/Debug-iphonesimulator/Sprite.app/Shader.vsh Shaders/Shader.vsh
+cCompileXIB /projects/Sprite/MainWindow.xib
+cProcessPCH /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch.gch Sprite_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/main.o /projects/Sprite/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/SpriteAppDelegate.o /projects/Sprite/Classes/SpriteAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/EAGLView.o /projects/Sprite/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES1Renderer.o /projects/Sprite/Classes/ES1Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C953D470000000000000132
+t1284848967
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFDFF0A000000000000094F
+t1274937098
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFDFF0A0000000000000A61
+t1274937098
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFDFF0A0000000000009369
+t1274937098
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFDFF0A0000000000003C4A
+t1274937098
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004BFDFF0A00000000000092AA
+t1274937098
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004BFDFF0A00000000000026AA
+t1274937098
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFDFF120000000000019D60
+t1274937106
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/projects/Sprite/Classes/EAGLView.h
+c000000004D4D4D3D00000000000004E3
+t1296911677
+s1251
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"ESRenderer.h"
+
+N/projects/Sprite/Classes/EAGLView.m
+c000000004D4D4D3D000000000000101C
+t1296911677
+s4124
+i"EAGLView.h"
+i"ES1Renderer.h"
+i"ES2Renderer.h"
+
+N/projects/Sprite/Classes/ES1Renderer.h
+c000000004D4D4D3D000000000000026F
+t1296911677
+s623
+i"ESRenderer.h"
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/projects/Sprite/Classes/ES1Renderer.m
+c000000004D4D4D3D0000000000000FA9
+t1296911677
+s4009
+i"ES1Renderer.h"
+
+N/projects/Sprite/Classes/ES2Renderer.h
+c000000004D4D4D3E0000000000000285
+t1296911678
+s645
+i"ESRenderer.h"
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/projects/Sprite/Classes/ES2Renderer.m
+c000000004D4D4D3E0000000000002210
+t1296911678
+s8720
+i"ES2Renderer.h"
+
+N/projects/Sprite/Classes/ESRenderer.h
+c000000004D4D4D3E0000000000000154
+t1296911678
+s340
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/projects/Sprite/Classes/SpriteAppDelegate.h
+c000000004D4D4D3E00000000000001AB
+t1296911678
+s427
+i<UIKit/UIKit.h>
+
+N/projects/Sprite/Classes/SpriteAppDelegate.m
+c000000004D4D4D3E0000000000000334
+t1296911678
+s820
+i"SpriteAppDelegate.h"
+i"EAGLView.h"
+
+N/projects/Sprite/MainWindow.xib
+c000000004D4D4D3E000000000000276C
+t1296911678
+s10092
+
+N/projects/Sprite/Shaders/Shader.fsh
+c000000004D4D4D3E00000000000000DF
+t1296911678
+s223
+
+N/projects/Sprite/Shaders/Shader.vsh
+c000000004D4D4D3E0000000000000165
+t1296911678
+s357
+
+N/projects/Sprite/Sprite_Prefix.pch
+c000000004D4D4D3E0000000000000136
+t1296911678
+s310
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app
+t2
+s0
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app.dSYM
+t2
+s0
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Info.plist
+t1296911701
+s614
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/MainWindow.nib
+t1296911702
+s1183
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/PkgInfo
+t1296911701
+s8
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Shader.fsh
+t1296911701
+s223
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Shader.vsh
+t1296911701
+s357
+
+N/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Sprite
+t2
+s0
+
+N/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/EAGLView.o
+t2
+s0
+
+N/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES1Renderer.o
+t1296911704
+s16816
+
+N/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES2Renderer.o
+t2
+s0
+
+N/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/Sprite.LinkFileList
+c000000004D4D4D5500000000000001A0
+t1296911701
+s416
+
+N/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/SpriteAppDelegate.o
+t1296911704
+s47508
+
+N/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/main.o
+t1296911704
+s6260
+
+N/projects/Sprite/main.m
+c000000004D4D4D3E000000000000016E
+t1296911678
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch.gch
+t1296911703
+s10208816
+
+NSprite-Info.plist
+c000000004D4D4D3E00000000000003B4
+t1296911678
+s948
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318604501#318604501#0(0"0(0#1#0"4231192#0"0#
+
+CCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/EAGLView.o /projects/Sprite/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318604504.452327
+e318604504.570166
+r0
+xCompileC
+xbuild/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/EAGLView.o
+x/projects/Sprite/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/projects/Sprite/Classes/EAGLView.m:12:24: error: ES2Renderer.h: No such file or directory
+o/projects/Sprite/Classes/EAGLView.m: In function '-[EAGLView initWithCoder:]':
+o/projects/Sprite/Classes/EAGLView.m:37: error: 'ES2Renderer' undeclared (first use in this function)
+o/projects/Sprite/Classes/EAGLView.m:37: error: (Each undeclared identifier is reported only once
+o/projects/Sprite/Classes/EAGLView.m:37: error: for each function it appears in.)
+o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:50:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:50:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+lSLF07#2@43"Compile /projects/Sprite/Classes/EAGLView.m318604504#318604504#0(1054"/projects/Sprite/Classes/EAGLView.m:12:24: error: ES2Renderer.h: No such file or directory/projects/Sprite/Classes/EAGLView.m: In function '-[EAGLView initWithCoder:]':/projects/Sprite/Classes/EAGLView.m:37: error: 'ES2Renderer' undeclared (first use in this function)/projects/Sprite/Classes/EAGLView.m:37: error: (Each undeclared identifier is reported only once/projects/Sprite/Classes/EAGLView.m:37: error: for each function it appears in.){standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:50:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:50:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_02(4@40"ES2Renderer.h: No such file or directory318604504#0#91#0(6@35"/projects/Sprite/Classes/EAGLView.m318604477#12#0#12#0#28"*: No such file or directory0(4@53"'ES2Renderer' undeclared (first use in this function)318604504#170#101#0(6@35"/projects/Sprite/Classes/EAGLView.m318604477#37#0#37#0#43"'*' undeclared (first use in this function)0(0#0#35"/projects/Sprite/Classes/EAGLView.m2427678656#1663"    cd /projects/Sprite    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-generated-files.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-own-target-headers.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-all-target-headers.hmap -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-project-headers.hmap -F/projects/Sprite/build/Debug-iphonesimulator -I/projects/Sprite/build/Debug-iphonesimulator/include -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources/i386 -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources -include /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch -c /projects/Sprite/Classes/EAGLView.m -o /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/EAGLView.o1#
+
+CCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES1Renderer.o /projects/Sprite/Classes/ES1Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318604504.469726
+e318604504.622903
+r1
+xCompileC
+xbuild/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES1Renderer.o
+x/projects/Sprite/Classes/ES1Renderer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /projects/Sprite/Classes/ES1Renderer.m318604504#318604504#0(0"0(0#0#38"/projects/Sprite/Classes/ES1Renderer.m2427678656#1669"    cd /projects/Sprite    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-generated-files.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-own-target-headers.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-all-target-headers.hmap -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-project-headers.hmap -F/projects/Sprite/build/Debug-iphonesimulator -I/projects/Sprite/build/Debug-iphonesimulator/include -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources/i386 -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources -include /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch -c /projects/Sprite/Classes/ES1Renderer.m -o /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES1Renderer.o0#
+
+CCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/ES2Renderer.o /projects/Sprite/Classes/ES2Renderer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/SpriteAppDelegate.o /projects/Sprite/Classes/SpriteAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318604504.194903
+e318604504.469591
+r1
+xCompileC
+xbuild/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/SpriteAppDelegate.o
+x/projects/Sprite/Classes/SpriteAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /projects/Sprite/Classes/SpriteAppDelegate.m318604504#318604504#0(0"0(0#0#44"/projects/Sprite/Classes/SpriteAppDelegate.m2427678656#1681"    cd /projects/Sprite    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-generated-files.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-own-target-headers.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-all-target-headers.hmap -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-project-headers.hmap -F/projects/Sprite/build/Debug-iphonesimulator -I/projects/Sprite/build/Debug-iphonesimulator/include -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources/i386 -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources -include /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch -c /projects/Sprite/Classes/SpriteAppDelegate.m -o /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/SpriteAppDelegate.o0#
+
+CCompileC build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/main.o /projects/Sprite/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318604504.193051
+e318604504.452200
+r1
+xCompileC
+xbuild/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/main.o
+x/projects/Sprite/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Compile /projects/Sprite/main.m318604504#318604504#0(0"0(0#0#23"/projects/Sprite/main.m2427678656#1647"    cd /projects/Sprite    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-generated-files.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-own-target-headers.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-all-target-headers.hmap -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-project-headers.hmap -F/projects/Sprite/build/Debug-iphonesimulator -I/projects/Sprite/build/Debug-iphonesimulator/include -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources/i386 -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources -include /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch -c /projects/Sprite/main.m -o /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /projects/Sprite/MainWindow.xib
+s318604501.951168
+e318604502.526321
+r1
+xCompileXIB
+x/projects/Sprite/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318604501#318604502#0(0"0(0#0#31"/projects/Sprite/MainWindow.xib2427678656#503"    cd /projects/Sprite    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/MainWindow.nib /projects/Sprite/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Sprite.app/Shader.fsh Shaders/Shader.fsh
+s318604501.909558
+e318604501.978085
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Sprite.app/Shader.fsh
+xShaders/Shader.fsh
+lSLF07#2@23"Copy Shaders/Shader.fsh318604501#318604501#0(0"0(0#0#35"/projects/Sprite/Shaders/Shader.fsh4231192#395"    cd /projects/Sprite    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /projects/Sprite/Shaders/Shader.fsh /projects/Sprite/build/Debug-iphonesimulator/Sprite.app0#
+
+CCpResource build/Debug-iphonesimulator/Sprite.app/Shader.vsh Shaders/Shader.vsh
+s318604501.948948
+e318604501.982941
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Sprite.app/Shader.vsh
+xShaders/Shader.vsh
+lSLF07#2@23"Copy Shaders/Shader.vsh318604501#318604501#0(0"0(0#0#35"/projects/Sprite/Shaders/Shader.vsh2427678656#395"    cd /projects/Sprite    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /projects/Sprite/Shaders/Shader.vsh /projects/Sprite/build/Debug-iphonesimulator/Sprite.app0#
+
+CGenerateDSYMFile /projects/Sprite/build/Debug-iphonesimulator/Sprite.app.dSYM /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Sprite
+r0
+
+CLd /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Sprite normal i386
+r0
+
+CProcessInfoPlistFile /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Info.plist Sprite-Info.plist
+s318604501.876671
+e318604501.909330
+r1
+xProcessInfoPlistFile
+x/projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Info.plist
+xSprite-Info.plist
+lSLF07#2@25"Process Sprite-Info.plist318604501#318604501#0(0"0(0#0#34"/projects/Sprite/Sprite-Info.plist4231192#410"    cd /projects/Sprite    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Sprite-Info.plist -genpkginfo /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /projects/Sprite/build/Debug-iphonesimulator/Sprite.app/Info.plist0#
+
+CProcessPCH /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch.gch Sprite_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318604502.526544
+e318604504.192707
+r1
+xProcessPCH
+x/var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch.gch
+xSprite_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Sprite_Prefix.pch318604502#318604504#0(0"0(0#0#34"/projects/Sprite/Sprite_Prefix.pch2427678656#1562"    cd /projects/Sprite    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-generated-files.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-own-target-headers.hmap -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-all-target-headers.hmap -iquote /projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/Sprite-project-headers.hmap -F/projects/Sprite/build/Debug-iphonesimulator -I/projects/Sprite/build/Debug-iphonesimulator/include -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources/i386 -I/projects/Sprite/build/Sprite.build/Debug-iphonesimulator/Sprite.build/DerivedSources -c /projects/Sprite/Sprite_Prefix.pch -o /var/folders/V0/V0sNFMOTHgC-sQ3rLppx1U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Sprite_Prefix-hiswqgynjdqxivdmjmeyegnxlfiq/Sprite_Prefix.pch.gch0#
+
+CTouch /projects/Sprite/build/Debug-iphonesimulator/Sprite.app
+r0
+

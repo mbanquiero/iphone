@@ -1,0 +1,7 @@
+In file included from /Volumes/Disco Aux/iphone/GLTest/Classes/EAGLView.m:12:
+/Volumes/Disco Aux/iphone/GLTest/Classes/GLTestViewController.h:46: error: redefinition of parameter 'rta'
+/Volumes/Disco Aux/iphone/GLTest/Classes/GLTestViewController.h:46: error: previous definition of 'rta' was here
+/Volumes/Disco Aux/iphone/GLTest/Classes/EAGLView.m: In function '-[EAGLView touchesMoved:withEvent:]':
+/Volumes/Disco Aux/iphone/GLTest/Classes/EAGLView.m:180: error: 'LF' undeclared (first use in this function)
+/Volumes/Disco Aux/iphone/GLTest/Classes/EAGLView.m:180: error: (Each undeclared identifier is reported only once
+/Volumes/Disco Aux/iphone/GLTest/Classes/EAGLView.m:180: error: for each function it appears in.)
